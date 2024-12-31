@@ -27,7 +27,6 @@ namespace AesEncryptAndDecryptDemo
             string decryptedText = AesEncryption.Decrypt(encryptPacket.CypherBytes, encryptPacket.IvBytes, keyAndIv.Key);
             Console.WriteLine("Decrypted Text: " + decryptedText);
 
-
             Console.WriteLine();
         }
     }
